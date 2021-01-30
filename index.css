@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.inbox{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   line-height: 50px;
+   justify-content: start;
+   margin-left: 500px;
+   margin-top: 70px;
+   background-color: rgb(103, 207, 34);
+   width: 300px;
+   box-shadow: 5px 5px 10px rgb(5, 199, 37);
+}
+p{
+    display: inline;
+    margin-left: 10px;
+}
+input{
+    width: 40px;
+    height: 20px;
+    
+    
+}
+.item{
+    border: 1px solid black;
+}
+
+input:checked + p{
+    text-decoration: line-through;
+}
+input:checked{
+    background-color: red;
+}
